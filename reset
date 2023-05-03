@@ -1,0 +1,7 @@
+#!/bin/bash
+#
+# Reset the Docker container.
+#
+docker-compose down 
+docker-compose up -d
+docker-compose build --pull --no-cache

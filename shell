@@ -1,0 +1,5 @@
+#!/bin/bash
+#
+# Open shell into container.
+#
+docker run -it --mount "type=bind,source=$(pwd)/scraper/,target=/scraper/" nm-twitter_nmtwitter /bin/bash 

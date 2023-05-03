@@ -1,0 +1,12 @@
+version: '2'
+
+services:
+  nmtwitter:
+    platform: linux/x86_64
+    build: .
+    volumes:
+      - '.:/scraper/'
+    ports:
+      - 4000:4000
+    stdin_open: true # docker run -i
+    tty: true        # docker run -t
