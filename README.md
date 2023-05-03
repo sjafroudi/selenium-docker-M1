@@ -6,8 +6,6 @@
 
 ## Usage
 
-* Docker image and scaffolding for running a webdriver on an M1 Macbook Pro.
-
 #### Navigate to root folder and run the following commands:
 ```
 chmod u+x ./scripts/*
