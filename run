@@ -1,5 +1,0 @@
-#!/bin/bash
-#
-# Run scraper/
-#
-docker run -it --mount "type=bind,source=$(pwd)/scraper/,target=/scraper/" nm-twitter_nmtwitter /bin/bash -c "python3 ./scraper/scraper.py"
